@@ -1,0 +1,91 @@
+﻿<Window
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d"
+	x:Class="CarTradingUnlimited.PrintQuote"
+	x:Name="Window_Qoute"
+	Title="PrintQuote" d:DesignWidth="400" d:DesignHeight="450" Background="{x:Null}" AllowsTransparency="True" WindowStyle="None" Loaded="Window_Qoute_Loaded" Visibility="Visible" Icon="Images/car.ico">
+
+	<Grid x:Name="LayoutRoot">
+		<Canvas Margin="9,0,8,0" Height="411" Width="384" HorizontalAlignment="Center" VerticalAlignment="Center">
+			<Rectangle x:Name="Rec_Parts" RadiusY="63" RadiusX="63" Height="411" Width="384" StrokeThickness="5" Opacity="0.535" MouseDown="Rec_Parts_MouseDown">
+				<Rectangle.Fill>
+					<RadialGradientBrush>
+						<GradientStop Color="Black" Offset="1"/>
+						<GradientStop Color="White"/>
+					</RadialGradientBrush>
+				</Rectangle.Fill>
+			</Rectangle>
+			<DockPanel HorizontalAlignment="Left" LastChildFill="False" VerticalAlignment="Top" Height="411">
+				<DockPanel x:Name="Dock_Decision" Height="86" LastChildFill="False" Width="384" DockPanel.Dock="Top">
+					<TextBlock TextWrapping="Wrap" DockPanel.Dock="Top" FontSize="21.333" Foreground="#FFA6AF10" TextAlignment="Center" FontWeight="Bold" FontStyle="Italic" TextDecorations="Underline"><Run Language="en-za" Text="Print Quote For Parts"/></TextBlock>
+					<GroupBox x:Name="GRP_Cust" Header="Select a Part:" Width="237.697" Foreground="#FFA6AF10" FontWeight="Bold" FontStyle="Italic" BorderBrush="{x:Null}" Margin="26,0,0,0">
+						<StackPanel Orientation="Horizontal" Margin="0,0,36,0">
+							<ComboBox x:Name="cmbx_Parts" Width="186" SelectionChanged="cmbx_Parts_SelectionChanged"/>
+						</StackPanel>
+					</GroupBox>
+				</DockPanel>
+				<DockPanel x:Name="DOCK_PrintQuote" LastChildFill="False" Width="384" Margin="0,0,0,30" d:LayoutOverrides="HorizontalAlignment">
+					<Canvas Margin="0,16,0,0" Width="337" DockPanel.Dock="Top" Height="255" HorizontalAlignment="Center" VerticalAlignment="Center">
+						<Rectangle Fill="Black" Stroke="#FFA6AF10" RadiusY="20.5" RadiusX="20.5" Height="255" Width="337" StrokeThickness="5"/>
+						<StackPanel Height="235" VerticalAlignment="Top" Canvas.Left="15" Width="302" Canvas.Top="20">
+                            <RichTextBox x:Name="Rich_Quote" Height="195">
+                                <FlowDocument>
+                                    <Paragraph>
+                                        <Run Text=""/>
+                                    </Paragraph>
+                                </FlowDocument>
+                            </RichTextBox>
+                            <StackPanel Height="33" Orientation="Horizontal">
+                                <Canvas x:Name="can_Print" Width="77" Height="29" VerticalAlignment="Center" Margin="59,0,0,-5" Cursor="Hand" MouseEnter="can_Print_MouseEnter" MouseLeave="can_Print_MouseLeave" MouseDown="can_Print_MouseDown">
+                                    <Rectangle x:Name="_base" Height="29" Stroke="#FFB21D1D" StrokeThickness="0" RadiusX="24" RadiusY="18" Fill="#FFA6AF10" Width="77"/>
+                                    <Rectangle x:Name="glow" Height="29" Stroke="#FFB21D1D" StrokeThickness="0" RadiusX="24" RadiusY="18" Width="77" Opacity="0">
+                                        <Rectangle.Fill>
+                                            <RadialGradientBrush RadiusY="0.526" GradientOrigin="0.455,1.077" Center="0.494,0.84" RadiusX="0.586">
+                                                <GradientStop Color="#FFC3D3E2"/>
+                                                <GradientStop Offset="1" Color="#00CAB904"/>
+                                            </RadialGradientBrush>
+                                        </Rectangle.Fill>
+                                    </Rectangle>
+                                    <Rectangle x:Name="glass" Height="29" Stroke="#FFB21D1D" StrokeThickness="0" RadiusX="24" RadiusY="18" Width="77" Opacity="0.795">
+                                        <Rectangle.Fill>
+                                            <LinearGradientBrush EndPoint="0.489,-0.231" MappingMode="RelativeToBoundingBox" StartPoint="0.489,1.07">
+                                                <GradientStop Color="#00000000" Offset="0"/>
+                                                <GradientStop Color="White" Offset="1"/>
+                                                <GradientStop Color="#9B9B9B9B" Offset="0.675"/>
+                                                <GradientStop Color="#1B1B1B1B" Offset="0.543"/>
+                                            </LinearGradientBrush>
+                                        </Rectangle.Fill>
+                                    </Rectangle>
+                                    <TextBlock TextWrapping="Wrap" Width="77" Height="21" RenderTransformOrigin="0.5,0.5" Canvas.Top="8" TextAlignment="Center"><Run Language="en-za" Text="Print"/><LineBreak/><Run Language="en-za"/></TextBlock>
+                                </Canvas>
+                                <Canvas x:Name="can_Back"  Width="77" Height="29" VerticalAlignment="Center" Margin="7,0,0,-5" Cursor="Hand" MouseEnter="can_Back_MouseEnter" MouseLeave="can_Back_MouseLeave" MouseDown="can_Back_MouseDown">
+                                    <Rectangle x:Name="_base2" Height="29" Stroke="#FFB21D1D" StrokeThickness="0" RadiusX="24" RadiusY="18" Fill="#FFA6AF10" Width="77"/>
+                                    <Rectangle x:Name="glow2" Height="29" Stroke="#FFB21D1D" StrokeThickness="0" RadiusX="24" RadiusY="18" Width="77" Opacity="0">
+                                        <Rectangle.Fill>
+                                            <RadialGradientBrush RadiusY="0.526" GradientOrigin="0.455,1.077" Center="0.494,0.84" RadiusX="0.586">
+                                                <GradientStop Color="#FFC3D3E2"/>
+                                                <GradientStop Offset="1" Color="#00CAB904"/>
+                                            </RadialGradientBrush>
+                                        </Rectangle.Fill>
+                                    </Rectangle>
+                                    <Rectangle x:Name="glass2" Height="29" Stroke="#FFB21D1D" StrokeThickness="0" RadiusX="24" RadiusY="18" Width="77" Opacity="0.795">
+                                        <Rectangle.Fill>
+                                            <LinearGradientBrush EndPoint="0.489,-0.231" MappingMode="RelativeToBoundingBox" StartPoint="0.489,1.07">
+                                                <GradientStop Color="#00000000" Offset="0"/>
+                                                <GradientStop Color="White" Offset="1"/>
+                                                <GradientStop Color="#9B9B9B9B" Offset="0.675"/>
+                                                <GradientStop Color="#1B1B1B1B" Offset="0.543"/>
+                                            </LinearGradientBrush>
+                                        </Rectangle.Fill>
+                                    </Rectangle>
+                                    <TextBlock TextWrapping="Wrap" Width="77" Height="21" RenderTransformOrigin="0.5,0.5" Canvas.Top="8" TextAlignment="Center"><Run Language="en-za" Text="Go back"/><LineBreak/><Run Language="en-za"/></TextBlock>
+                                </Canvas>
+                            </StackPanel>
+                        </StackPanel>
+                    </Canvas>
+				</DockPanel>
+			</DockPanel>
+		</Canvas>
+	</Grid>
+</Window>

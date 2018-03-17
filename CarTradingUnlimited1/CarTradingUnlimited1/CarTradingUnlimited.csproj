@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ExpressionBlendVersion>4.0.20525.0</ExpressionBlendVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D5E24D37-CBAE-4512-8258-2A1FD3AB751A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <DefaultClrNameSpace>CarTradingUnlimited1</DefaultClrNameSpace>
+    <RootNamespace>CarTradingUnlimited1</RootNamespace>
+    <AssemblyName>CarTradingUnlimited1</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <ApplicationIcon>Application.ico</ApplicationIcon>
+    <Utf8Output>true</Utf8Output>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Printing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="AddWareHouse.xaml.cs">
+      <DependentUpon>AddWareHouse.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Control\Block.xaml.cs">
+      <DependentUpon>Block.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Control\LoadingAnimation.xaml.cs">
+      <DependentUpon>LoadingAnimation.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CTUConnection.cs" />
+    <Compile Include="IssueInvoice.xaml.cs">
+      <DependentUpon>IssueInvoice.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PrintInvoice.xaml.cs">
+      <DependentUpon>PrintInvoice.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PrintQuote.xaml.cs">
+      <DependentUpon>PrintQuote.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Splasher.xaml.cs">
+      <DependentUpon>Splasher.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateCustomer.xaml.cs">
+      <DependentUpon>UpdateCustomer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateEmployee.xaml.cs">
+      <DependentUpon>UpdateEmployee.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateMotorCycle.xaml.cs">
+      <DependentUpon>UpdateMotorCycle.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateNewVehicle.xaml.cs">
+      <DependentUpon>UpdateNewVehicle.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateOldVehicles.xaml.cs">
+      <DependentUpon>UpdateOldVehicles.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateParts.xaml.cs">
+      <DependentUpon>UpdateParts.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateService.xaml.cs">
+      <DependentUpon>UpdateService.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateWareHouse.xaml.cs">
+      <DependentUpon>UpdateWareHouse.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewBooking.xaml.cs">
+      <DependentUpon>ViewBooking.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewCustomer.xaml.cs">
+      <DependentUpon>ViewCustomer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewEmployee.xaml.cs">
+      <DependentUpon>ViewEmployee.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewInvoice.xaml.cs">
+      <DependentUpon>ViewInvoice.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewMotorCycle.xaml.cs">
+      <DependentUpon>ViewMotorCycle.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewNewVehicles.xaml.cs">
+      <DependentUpon>ViewNewVehicles.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewOldVehicles.xaml.cs">
+      <DependentUpon>ViewOldVehicles.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewParts.xaml.cs">
+      <DependentUpon>ViewParts.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewService.xaml.cs">
+      <DependentUpon>ViewService.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewWareHouse.xaml.cs">
+      <DependentUpon>ViewWareHouse.xaml</DependentUpon>
+    </Compile>
+    <Page Include="AddCustomer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="AddEmployee.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="AddMotorCycle.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="AddNewVehicles.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="AddOldVehicles.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="AddParts.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="AddService.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="AddWareHouse.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="BookDrive.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ChangeBooking.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Control\Block.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Control\LoadingAnimation.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="IssueInvoice.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="LoginWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="AddCustomer.xaml.cs">
+      <DependentUpon>AddCustomer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AddEmployee.xaml.cs">
+      <DependentUpon>AddEmployee.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AddMotorCycle.xaml.cs">
+      <DependentUpon>AddMotorCycle.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AddNewVehicles.xaml.cs">
+      <DependentUpon>AddNewVehicles.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AddOldVehicles.xaml.cs">
+      <DependentUpon>AddOldVehicles.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AddParts.xaml.cs">
+      <DependentUpon>AddParts.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AddService.xaml.cs">
+      <DependentUpon>AddService.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BookDrive.xaml.cs">
+      <DependentUpon>BookDrive.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ChangeBooking.xaml.cs">
+      <DependentUpon>ChangeBooking.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LoginWindow.xaml.cs">
+      <DependentUpon>LoginWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="PrintInvoice.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PrintQuote.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Splasher.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UpdateCustomer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UpdateEmployee.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UpdateMotorCycle.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UpdateNewVehicle.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UpdateOldVehicles.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UpdateParts.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UpdateService.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UpdateWareHouse.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ViewBooking.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ViewCustomer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ViewEmployee.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ViewInvoice.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ViewMotorCycle.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ViewNewVehicles.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ViewOldVehicles.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ViewParts.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ViewService.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ViewWareHouse.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <AppDesigner Include="Properties\" />
+    <None Include="Application.ico">
+      <Visible>false</Visible>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\car.ico" />
+    <Resource Include="Images\Close.jpeg" />
+    <Resource Include="Images\Customers.jpeg" />
+    <Resource Include="Images\Employees.jpeg" />
+    <Resource Include="Images\Invoice.jpeg" />
+    <Resource Include="Images\MotorCycleFrontPic.jpeg" />
+    <Resource Include="Images\PartsFrontPic.jpeg" />
+    <Resource Include="Images\ServiceFrontPic.jpeg" />
+    <Resource Include="Images\OldCarsFrontPic.jpeg" />
+    <Resource Include="Images\NewCarsFrontPic.jpeg" />
+    <Resource Include="Images\Minimize.jpeg" />
+    <Resource Include="Images\Motorcycle.jpeg" />
+    <Resource Include="Images\NewVehicles.jpeg" />
+    <Resource Include="Images\OldVehicles.jpeg" />
+    <Resource Include="Images\Parts.jpeg" />
+    <Resource Include="Images\Service.jpeg" />
+    <Resource Include="Images\TestDrive.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Warehouse.jpeg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath32)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	     Other similar extension points exist, see Microsoft.Common.targets.
+	<Target Name="BeforeBuild">
+	</Target>
+	<Target Name="AfterBuild">
+	</Target>
+	-->
+</Project>

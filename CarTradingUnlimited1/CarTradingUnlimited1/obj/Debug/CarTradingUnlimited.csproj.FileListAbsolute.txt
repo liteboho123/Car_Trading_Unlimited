@@ -1,0 +1,332 @@
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\CarTradingUnlimited.csprojResolveAssemblyReference.cache
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\AddCustomer.baml
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\AddEmployee.baml
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\AddMotorCycle.baml
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\AddNewVehicles.baml
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\AddOldVehicles.baml
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\AddParts.baml
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\AddService.baml
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\AddWareHouse.baml
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\BookDrive.baml
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ChangeBooking.baml
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\Control\Block.baml
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\IssueInvoice.baml
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\LoginWindow.baml
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\MainWindow.baml
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\PrintInvoice.baml
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\PrintQuote.baml
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\UpdateCustomer.baml
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\UpdateEmployee.baml
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\UpdateMotorCycle.baml
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\UpdateNewVehicle.baml
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\UpdateOldVehicles.baml
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\UpdateParts.baml
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\UpdateService.baml
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\UpdateWareHouse.baml
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewCustomer.baml
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewEmployee.baml
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewInvoice.baml
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewMotorCycle.baml
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewNewVehicles.baml
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewOldVehicles.baml
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewParts.baml
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewService.baml
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewWareHouse.baml
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\App.baml
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\AddCustomer.g.cs
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\AddEmployee.g.cs
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\AddMotorCycle.g.cs
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\AddNewVehicles.g.cs
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\AddOldVehicles.g.cs
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\AddParts.g.cs
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\AddService.g.cs
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\AddWareHouse.g.cs
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\BookDrive.g.cs
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ChangeBooking.g.cs
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\Control\Block.g.cs
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\Control\LoadingAnimation.g.cs
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\IssueInvoice.g.cs
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\LoginWindow.g.cs
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\MainWindow.g.cs
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\PrintInvoice.g.cs
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\PrintQuote.g.cs
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\Splasher.g.cs
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\UpdateCustomer.g.cs
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\UpdateEmployee.g.cs
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\UpdateMotorCycle.g.cs
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\UpdateNewVehicle.g.cs
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\UpdateOldVehicles.g.cs
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\UpdateParts.g.cs
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\UpdateService.g.cs
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\UpdateWareHouse.g.cs
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewBooking.g.cs
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewCustomer.g.cs
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewEmployee.g.cs
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewInvoice.g.cs
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewMotorCycle.g.cs
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewNewVehicles.g.cs
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewOldVehicles.g.cs
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewParts.g.cs
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewService.g.cs
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewWareHouse.g.cs
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\App.g.cs
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\CarTradingUnlimited1_MarkupCompile.cache
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\CarTradingUnlimited1_MarkupCompile.lref
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\bin\Debug\CarTradingUnlimited1.exe
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\bin\Debug\CarTradingUnlimited1.pdb
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\Control\LoadingAnimation.baml
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\Splasher.baml
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewBooking.baml
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\CarTradingUnlimited1.g.resources
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\CarTradingUnlimited1.exe
+C:\Users\cna\Documents\Expression\Blend 4\Projects\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\CarTradingUnlimited1.pdb
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\CarTradingUnlimited1.exe
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\CarTradingUnlimited1.pdb
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\bin\Debug\CarTradingUnlimited1.exe
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\bin\Debug\CarTradingUnlimited1.pdb
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\CarTradingUnlimited.csprojResolveAssemblyReference.cache
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\AddCustomer.baml
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\AddEmployee.baml
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\AddMotorCycle.baml
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\AddNewVehicles.baml
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\AddOldVehicles.baml
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\AddParts.baml
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\AddService.baml
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\AddWareHouse.baml
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\BookDrive.baml
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ChangeBooking.baml
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\Control\Block.baml
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\IssueInvoice.baml
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\LoginWindow.baml
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\MainWindow.baml
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\PrintInvoice.baml
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\PrintQuote.baml
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\UpdateCustomer.baml
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\UpdateEmployee.baml
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\UpdateMotorCycle.baml
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\UpdateNewVehicle.baml
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\UpdateOldVehicles.baml
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\UpdateParts.baml
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\UpdateService.baml
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\UpdateWareHouse.baml
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewCustomer.baml
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewEmployee.baml
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewInvoice.baml
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewMotorCycle.baml
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewNewVehicles.baml
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewOldVehicles.baml
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewParts.baml
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewService.baml
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewWareHouse.baml
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\App.baml
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\AddCustomer.g.cs
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\AddEmployee.g.cs
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\AddMotorCycle.g.cs
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\AddNewVehicles.g.cs
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\AddOldVehicles.g.cs
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\AddParts.g.cs
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\AddService.g.cs
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\AddWareHouse.g.cs
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\BookDrive.g.cs
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ChangeBooking.g.cs
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\Control\Block.g.cs
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\Control\LoadingAnimation.g.cs
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\IssueInvoice.g.cs
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\LoginWindow.g.cs
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\MainWindow.g.cs
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\PrintInvoice.g.cs
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\PrintQuote.g.cs
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\Splasher.g.cs
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\UpdateCustomer.g.cs
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\UpdateEmployee.g.cs
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\UpdateMotorCycle.g.cs
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\UpdateNewVehicle.g.cs
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\UpdateOldVehicles.g.cs
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\UpdateParts.g.cs
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\UpdateService.g.cs
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\UpdateWareHouse.g.cs
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewBooking.g.cs
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewCustomer.g.cs
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewEmployee.g.cs
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewInvoice.g.cs
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewMotorCycle.g.cs
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewNewVehicles.g.cs
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewOldVehicles.g.cs
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewParts.g.cs
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewService.g.cs
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewWareHouse.g.cs
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\App.g.cs
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\CarTradingUnlimited1_MarkupCompile.cache
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\CarTradingUnlimited1_MarkupCompile.lref
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\Control\LoadingAnimation.baml
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\Splasher.baml
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewBooking.baml
+F:\CarTradingUnlimited\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\CarTradingUnlimited1.g.resources
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\CarTradingUnlimited1.exe
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\CarTradingUnlimited1.pdb
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\bin\Debug\CarTradingUnlimited1.exe
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\bin\Debug\CarTradingUnlimited1.pdb
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\CarTradingUnlimited.csprojResolveAssemblyReference.cache
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\AddCustomer.baml
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\AddEmployee.baml
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\AddMotorCycle.baml
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\AddNewVehicles.baml
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\AddOldVehicles.baml
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\AddParts.baml
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\AddService.baml
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\AddWareHouse.baml
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\BookDrive.baml
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ChangeBooking.baml
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\Control\Block.baml
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\IssueInvoice.baml
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\LoginWindow.baml
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\MainWindow.baml
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\PrintInvoice.baml
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\PrintQuote.baml
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\UpdateCustomer.baml
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\UpdateEmployee.baml
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\UpdateMotorCycle.baml
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\UpdateNewVehicle.baml
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\UpdateOldVehicles.baml
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\UpdateParts.baml
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\UpdateService.baml
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\UpdateWareHouse.baml
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewCustomer.baml
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewEmployee.baml
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewInvoice.baml
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewMotorCycle.baml
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewNewVehicles.baml
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewOldVehicles.baml
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewParts.baml
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewService.baml
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewWareHouse.baml
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\App.baml
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\AddCustomer.g.cs
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\AddEmployee.g.cs
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\AddMotorCycle.g.cs
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\AddNewVehicles.g.cs
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\AddOldVehicles.g.cs
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\AddParts.g.cs
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\AddService.g.cs
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\AddWareHouse.g.cs
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\BookDrive.g.cs
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ChangeBooking.g.cs
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\Control\Block.g.cs
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\Control\LoadingAnimation.g.cs
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\IssueInvoice.g.cs
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\LoginWindow.g.cs
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\MainWindow.g.cs
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\PrintInvoice.g.cs
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\PrintQuote.g.cs
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\Splasher.g.cs
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\UpdateCustomer.g.cs
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\UpdateEmployee.g.cs
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\UpdateMotorCycle.g.cs
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\UpdateNewVehicle.g.cs
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\UpdateOldVehicles.g.cs
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\UpdateParts.g.cs
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\UpdateService.g.cs
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\UpdateWareHouse.g.cs
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewBooking.g.cs
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewCustomer.g.cs
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewEmployee.g.cs
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewInvoice.g.cs
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewMotorCycle.g.cs
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewNewVehicles.g.cs
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewOldVehicles.g.cs
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewParts.g.cs
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewService.g.cs
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewWareHouse.g.cs
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\App.g.cs
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\CarTradingUnlimited1_MarkupCompile.cache
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\CarTradingUnlimited1_MarkupCompile.lref
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\Control\LoadingAnimation.baml
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\Splasher.baml
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewBooking.baml
+C:\Users\mc coy\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\CarTradingUnlimited1.g.resources
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\CarTradingUnlimited1.exe
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\CarTradingUnlimited1.pdb
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\bin\Debug\CarTradingUnlimited1.exe
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\bin\Debug\CarTradingUnlimited1.pdb
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\CarTradingUnlimited.csprojResolveAssemblyReference.cache
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\AddCustomer.baml
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\AddEmployee.baml
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\AddMotorCycle.baml
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\AddNewVehicles.baml
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\AddOldVehicles.baml
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\AddParts.baml
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\AddService.baml
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\AddWareHouse.baml
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\BookDrive.baml
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ChangeBooking.baml
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\Control\Block.baml
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\IssueInvoice.baml
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\LoginWindow.baml
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\MainWindow.baml
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\PrintInvoice.baml
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\PrintQuote.baml
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\UpdateCustomer.baml
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\UpdateEmployee.baml
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\UpdateMotorCycle.baml
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\UpdateNewVehicle.baml
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\UpdateOldVehicles.baml
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\UpdateParts.baml
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\UpdateService.baml
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\UpdateWareHouse.baml
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewCustomer.baml
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewEmployee.baml
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewInvoice.baml
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewMotorCycle.baml
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewNewVehicles.baml
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewOldVehicles.baml
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewParts.baml
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewService.baml
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewWareHouse.baml
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\App.baml
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\AddCustomer.g.cs
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\AddEmployee.g.cs
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\AddMotorCycle.g.cs
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\AddNewVehicles.g.cs
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\AddOldVehicles.g.cs
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\AddParts.g.cs
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\AddService.g.cs
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\AddWareHouse.g.cs
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\BookDrive.g.cs
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ChangeBooking.g.cs
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\Control\Block.g.cs
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\Control\LoadingAnimation.g.cs
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\IssueInvoice.g.cs
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\LoginWindow.g.cs
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\MainWindow.g.cs
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\PrintInvoice.g.cs
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\PrintQuote.g.cs
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\Splasher.g.cs
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\UpdateCustomer.g.cs
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\UpdateEmployee.g.cs
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\UpdateMotorCycle.g.cs
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\UpdateNewVehicle.g.cs
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\UpdateOldVehicles.g.cs
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\UpdateParts.g.cs
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\UpdateService.g.cs
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\UpdateWareHouse.g.cs
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewBooking.g.cs
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewCustomer.g.cs
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewEmployee.g.cs
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewInvoice.g.cs
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewMotorCycle.g.cs
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewNewVehicles.g.cs
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewOldVehicles.g.cs
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewParts.g.cs
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewService.g.cs
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewWareHouse.g.cs
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\App.g.cs
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\CarTradingUnlimited1_MarkupCompile.cache
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\CarTradingUnlimited1_MarkupCompile.lref
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\Control\LoadingAnimation.baml
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\Splasher.baml
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\ViewBooking.baml
+C:\Users\cna\Desktop\CarTradingUnlimited1\CarTradingUnlimited1\obj\Debug\CarTradingUnlimited1.g.resources

@@ -1,0 +1,182 @@
+﻿<Page
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d"
+	x:Class="CarTradingUnlimited.ViewCustomer"
+	x:Name="Page"
+	WindowTitle="Page"
+	FlowDirection="LeftToRight"
+	Width="640" Height="462"
+	WindowWidth="640" WindowHeight="480">
+
+	<Grid x:Name="LayoutRoot">
+		<DockPanel LastChildFill="False" Margin="310,0,0,0">
+			<Frame x:Name="Cust_page" Width="330" NavigationUIVisibility="Hidden" />
+		</DockPanel>
+		<DockPanel LastChildFill="False" Margin="0,0,334,0">
+			<TextBlock TextWrapping="Wrap" DockPanel.Dock="Top" FontSize="26.667" Foreground="#FFA52D2D" TextAlignment="Center" FontWeight="Bold" FontStyle="Italic" TextDecorations="Underline"><Run Language="en-za" Text="CUSTOMER DETAILS"/></TextBlock>
+			<DataGrid x:Name="DGV_Cust" Margin="8,5,8,0" VerticalAlignment="Top" DockPanel.Dock="Top" Background="{x:Null}" RowBackground="{DynamicResource red}" BorderBrush="Black" Height="246" SelectionChanged="DGV_Cust_SelectionChanged" HorizontalContentAlignment="Center">
+                <DataGrid.Columns>
+                    <DataGridCheckBoxColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" HeaderStringFormat="hvghvh"/>
+                </DataGrid.Columns>
+            </DataGrid>
+            <GroupBox Header="Search customer:" Margin="8,0,0,0" FontSize="16" FontFamily="SimSun" Foreground="{DynamicResource red}" DockPanel.Dock="Top" HorizontalAlignment="Left" Width="290">
+				
+				<StackPanel Margin="8,0,17.5,7.75">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock TextWrapping="Wrap" Text="Firstname:" Width="70" VerticalAlignment="Center" FontSize="12" Height="13.6866666666667"/>
+                        <TextBox x:Name="txt_Name" TextWrapping="Wrap" Text="Please enter firstname...." Width="177" VerticalAlignment="Center" SelectionOpacity="64.4" BorderBrush="{x:Null}" Foreground="Black" GotFocus="txt_Name_GotFocus" LostFocus="txt_Name_LostFocus" FontSize="12" Height="15.687" TextChanged="txt_Name_TextChanged">
+                            <TextBox.Background>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop x:Name="G1" Color="#FFFFD6D6"/>
+                                    <GradientStop x:Name="G2" Color="#FFBC2B2B" Offset="1"/>
+                                </LinearGradientBrush>
+                            </TextBox.Background>
+                            <TextBox.Triggers>
+                                <EventTrigger RoutedEvent="FrameworkElement.Loaded">
+                                    <BeginStoryboard>
+                                        <Storyboard x:Name="sb1" RepeatBehavior="Forever" AutoReverse="True">
+                                            <ColorAnimation Storyboard.TargetName="G1" Storyboard.TargetProperty="Color" To="#FFBC2B2B            " Duration="0:0:1" />
+                                            <ColorAnimation Storyboard.TargetName="G2" Storyboard.TargetProperty="Color" To="#FFFFD6D6" Duration="0:0:1" />
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </EventTrigger>
+                            </TextBox.Triggers>
+                        </TextBox>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock TextWrapping="Wrap" Text="Surname:" Width="70" VerticalAlignment="Center" Height="13.6866666666667" FontSize="12"/>
+                        <TextBox x:Name="txt_Surname" TextWrapping="Wrap" Text="Please enter surname...." Width="177" Height="15.686" VerticalAlignment="Center" FontSize="12" BorderBrush="{x:Null}" TextChanged="txt_Surname_TextChanged" GotFocus="txt_Surname_GotFocus" LostFocus="txt_Surname_LostFocus">
+                            <TextBox.Background>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop x:Name="G5" Color="#FFFFD6D6"/>
+                                    <GradientStop x:Name="G6" Color="#FFBC2B2B" Offset="1"/>
+                                </LinearGradientBrush>
+                            </TextBox.Background>
+                            <TextBox.Triggers>
+                                <EventTrigger RoutedEvent="FrameworkElement.Loaded">
+                                    <BeginStoryboard>
+                                        <Storyboard RepeatBehavior="Forever" AutoReverse="True">
+                                            <ColorAnimation Storyboard.TargetName="G5" Storyboard.TargetProperty="Color" To="#FFBC2B2B" Duration="0:0:1" />
+                                            <ColorAnimation Storyboard.TargetName="G6" Storyboard.TargetProperty="Color" To="#FFFFD6D6" Duration="0:0:1" />
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </EventTrigger>
+                            </TextBox.Triggers>
+                        </TextBox>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" d:LayoutOverrides="VerticalAlignment">
+                        <TextBlock TextWrapping="Wrap" Text="ID number:" Width="70" VerticalAlignment="Center" FontSize="12" Height="13.6866666666667"/>
+                        <TextBox x:Name="txt_ID" TextWrapping="Wrap" Text="Please enter ID...." Width="177" VerticalAlignment="Center" FontSize="12" Height="15.6866666666667" BorderBrush="{x:Null}" TextChanged="txt_ID_TextChanged" GotFocus="txt_ID_GotFocus" LostFocus="txt_ID_LostFocus">
+                            <TextBox.Background>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop x:Name="G3" Color="#FFFFD6D6"/>
+                                    <GradientStop x:Name="G4" Color="#FFBC2B2B" Offset="1"/>
+                                </LinearGradientBrush>
+                            </TextBox.Background>
+                            <TextBox.Triggers>
+                                <EventTrigger RoutedEvent="FrameworkElement.Loaded">
+                                    <BeginStoryboard>
+                                        <Storyboard RepeatBehavior="Forever" AutoReverse="True">
+                                            <ColorAnimation Storyboard.TargetName="G3" Storyboard.TargetProperty="Color" To="#FFBC2B2B" Duration="0:0:1" />
+                                            <ColorAnimation Storyboard.TargetName="G4" Storyboard.TargetProperty="Color" To="#FFFFD6D6" Duration="0:0:1" />
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </EventTrigger>
+                            </TextBox.Triggers>
+                        </TextBox>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" d:LayoutOverrides="VerticalAlignment">
+                        <TextBlock TextWrapping="Wrap" Text="Username:" Width="70" VerticalAlignment="Center" FontSize="12"/>
+                        <TextBox x:Name="txt_Username" TextWrapping="Wrap" Text="Please enter username...." Width="177" VerticalAlignment="Center" FontSize="12" Height="15.6866666666667" BorderBrush="{x:Null}" TextChanged="txt_Username_TextChanged" LostFocus="txt_Username_LostFocus" GotFocus="txt_Username_GotFocus">
+                            <TextBox.Background>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop x:Name="G7" Color="#FFFFD6D6"/>
+                                    <GradientStop x:Name="G8" Color="#FFBC2B2B" Offset="1"/>
+                                </LinearGradientBrush>
+                            </TextBox.Background>
+                            <TextBox.Triggers>
+                                <EventTrigger RoutedEvent="FrameworkElement.Loaded">
+                                    <BeginStoryboard>
+                                        <Storyboard RepeatBehavior="Forever" AutoReverse="True">
+                                            <ColorAnimation Storyboard.TargetName="G7" Storyboard.TargetProperty="Color" To="#FFBC2B2B" Duration="0:0:1" />
+                                            <ColorAnimation Storyboard.TargetName="G8" Storyboard.TargetProperty="Color" To="#FFFFD6D6" Duration="0:0:1" />
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </EventTrigger>
+                            </TextBox.Triggers>
+                        </TextBox>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" d:LayoutOverrides="VerticalAlignment">
+                        <TextBlock TextWrapping="Wrap" Text="Password:" Width="70" VerticalAlignment="Center" Height="13.6866666666667" FontSize="12"/>
+                        <TextBox x:Name="txt_Password" TextWrapping="Wrap" Text="Please enter password...." Width="177" VerticalAlignment="Center" FontSize="12" Height="15.686" BorderBrush="{x:Null}" TextChanged="txt_Password_TextChanged" GotFocus="txt_Password_GotFocus" LostFocus="txt_Password_LostFocus">
+                            <TextBox.Background>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop x:Name="G9" Color="#FFFFD6D6"/>
+                                    <GradientStop x:Name="G10" Color="#FFBC2B2B" Offset="1"/>
+                                </LinearGradientBrush>
+                            </TextBox.Background>
+                            <TextBox.Triggers>
+                                <EventTrigger RoutedEvent="FrameworkElement.Loaded">
+                                    <BeginStoryboard>
+                                        <Storyboard RepeatBehavior="Forever" AutoReverse="True">
+                                            <ColorAnimation Storyboard.TargetName="G9" Storyboard.TargetProperty="Color" To="#FFBC2B2B" Duration="0:0:1" />
+                                            <ColorAnimation Storyboard.TargetName="G10" Storyboard.TargetProperty="Color" To="#FFFFD6D6" Duration="0:0:1" />
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </EventTrigger>
+                            </TextBox.Triggers>
+                        </TextBox>
+                    </StackPanel>
+                </StackPanel>
+				
+			</GroupBox>
+			<StackPanel DockPanel.Dock="Bottom" Orientation="Horizontal" Margin="8,0">
+				<Canvas x:Name="can_Show"  Width="77" Height="29" VerticalAlignment="Bottom" Margin="0" MouseEnter="can_Show_MouseEnter" MouseLeave="can_Show_MouseLeave" Cursor="Hand" MouseLeftButtonDown="can_Show_MouseLeftButtonDown">
+					<Rectangle x:Name="_base" Height="29" Stroke="#FFB21D1D" StrokeThickness="0" RadiusX="24" RadiusY="18" Fill="#FFA52D2D" Width="77"/>
+					<Rectangle x:Name="glow" Height="29" Stroke="#FFB21D1D" StrokeThickness="0" RadiusX="24" RadiusY="18" Width="77" Opacity="0">
+						<Rectangle.Fill>
+							<RadialGradientBrush RadiusY="0.526" GradientOrigin="0.455,1.077" Center="0.494,0.84" RadiusX="0.586">
+								<GradientStop Color="#FFC3D3E2"/>
+								<GradientStop Offset="1" Color="#0015FFB9"/>
+							</RadialGradientBrush>
+						</Rectangle.Fill>
+					</Rectangle>
+					<Rectangle x:Name="glass" Height="29" Stroke="#FFB21D1D" StrokeThickness="0" RadiusX="24" RadiusY="18" Width="77" Opacity="0.795">
+						<Rectangle.Fill>
+							<LinearGradientBrush EndPoint="0.489,-0.231" MappingMode="RelativeToBoundingBox" StartPoint="0.489,1.07">
+								<GradientStop Color="#00000000" Offset="0"/>
+								<GradientStop Color="White" Offset="1"/>
+								<GradientStop Color="#9B9B9B9B" Offset="0.675"/>
+								<GradientStop Color="#1B1B1B1B" Offset="0.543"/>
+							</LinearGradientBrush>
+						</Rectangle.Fill>
+					</Rectangle>
+					<TextBlock TextWrapping="Wrap" Width="39" Height="21" RenderTransformOrigin="0.846,0.482" Canvas.Left="19" Canvas.Top="8" TextAlignment="Center"><Run Language="en-za" Text="Show"/><LineBreak/><Run Language="en-za"/></TextBlock>
+				</Canvas>
+				<Canvas x:Name="can_Delete" Width="77" Height="29" VerticalAlignment="Bottom" Margin="0" MouseEnter="can_Delete_MouseEnter" MouseLeave="can_Delete_MouseLeave" Cursor="Hand" MouseLeftButtonDown="can_Delete_MouseLeftButtonDown">
+					<Rectangle x:Name="_base1" Height="29" Stroke="#FFB21D1D" StrokeThickness="0" RadiusX="24" RadiusY="18" Fill="#FFA52D2D" Width="77"/>
+					<Rectangle x:Name="glow1" Height="29" Stroke="#FFB21D1D" StrokeThickness="0" RadiusX="24" RadiusY="18" Width="77" Opacity="0">
+						<Rectangle.Fill>
+							<RadialGradientBrush RadiusY="0.526" GradientOrigin="0.455,1.077" Center="0.494,0.84" RadiusX="0.586">
+								<GradientStop Color="#FFC3D3E2"/>
+								<GradientStop Offset="1" Color="#0015FFB9"/>
+							</RadialGradientBrush>
+						</Rectangle.Fill>
+					</Rectangle>
+					<Rectangle x:Name="glass1" Height="29" Stroke="#FFB21D1D" StrokeThickness="0" RadiusX="24" RadiusY="18" Width="77" Opacity="0.795">
+						<Rectangle.Fill>
+							<LinearGradientBrush EndPoint="0.489,-0.231" MappingMode="RelativeToBoundingBox" StartPoint="0.489,1.07">
+								<GradientStop Color="#00000000" Offset="0"/>
+								<GradientStop Color="White" Offset="1"/>
+								<GradientStop Color="#9B9B9B9B" Offset="0.675"/>
+								<GradientStop Color="#1B1B1B1B" Offset="0.543"/>
+							</LinearGradientBrush>
+						</Rectangle.Fill>
+					</Rectangle>
+					<TextBlock TextWrapping="Wrap" Width="39" Height="21" RenderTransformOrigin="0.846,0.482" Canvas.Left="19" Canvas.Top="8" TextAlignment="Center"><Run Language="en-za" Text="Delete"/></TextBlock>
+				</Canvas>
+			</StackPanel>
+		</DockPanel>
+	</Grid>
+</Page>

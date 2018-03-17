@@ -1,0 +1,13 @@
+﻿<Application
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	x:Class="CarTradingUnlimited.App" StartupUri="Splasher.xaml">
+	<Application.Resources>
+		<!-- Resources scoped at the Application level should be defined here. -->
+		<SolidColorBrush x:Key="red" Color="#FFA52D2D"/>
+		<RadialGradientBrush x:Key="lightred" RadiusY="0.526" GradientOrigin="0.455,1.077" Center="0.494,0.84" RadiusX="0.586">
+			<GradientStop Color="#FFC3D3E2"/>
+			<GradientStop Offset="1" Color="#00F11753"/>
+		</RadialGradientBrush>
+	</Application.Resources>
+</Application>

@@ -1,0 +1,119 @@
+﻿<Page
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d"
+	x:Class="CarTradingUnlimited.PrintInvoice"
+	x:Name="Page"
+	WindowTitle="Page"
+	FlowDirection="LeftToRight"
+	WindowWidth="640" WindowHeight="480" Height="462" Width="640" HorizontalAlignment="Center" VerticalAlignment="Center">
+
+	<Grid x:Name="LayoutRoot">
+		<DockPanel LastChildFill="False" Margin="0">
+			<TextBlock TextWrapping="Wrap" Text="Print Invoice" DockPanel.Dock="Top" TextAlignment="Center" FontSize="26.667" FontWeight="Bold" FontStyle="Italic" TextDecorations="Underline" Foreground="#FF646E38"/>
+			<Canvas Margin="9,0,8,0" DockPanel.Dock="Top" Height="255" Width="337" HorizontalAlignment="Center" VerticalAlignment="Center">
+				<Rectangle Fill="Black" Stroke="#FF646E38" RadiusY="20.5" RadiusX="20.5" Height="255" Width="337" StrokeThickness="5"/>
+				<StackPanel Height="234" VerticalAlignment="Top" Canvas.Left="15" Width="302" Canvas.Top="21">
+                    <RichTextBox x:Name="RICH_Invoice" Height="191">
+                        <FlowDocument>
+                            <Paragraph>
+                                <Run Text=""/>
+                            </Paragraph>
+                        </FlowDocument>
+                    </RichTextBox>
+                    <StackPanel Height="37" Orientation="Horizontal">
+                        <Canvas x:Name="can_Print" Width="77" Height="29" Margin="104,0,0,0" Cursor="Hand" MouseEnter="can_Print_MouseEnter" MouseLeave="can_Print_MouseLeave" MouseDown="can_Print_MouseDown" HorizontalAlignment="Center" VerticalAlignment="Center">
+                            <Rectangle x:Name="_base" Height="29" Stroke="#FFB21D1D" StrokeThickness="0" RadiusX="24" RadiusY="18" Width="77" Fill="#FF646E38"/>
+                            <Rectangle x:Name="glow" Height="29" Stroke="#FFB21D1D" StrokeThickness="0" RadiusX="24" RadiusY="18" Width="77" Opacity="0">
+                                <Rectangle.Fill>
+                                    <RadialGradientBrush RadiusY="0.526" GradientOrigin="0.455,1.077" Center="0.494,0.84" RadiusX="0.586">
+                                        <GradientStop Color="#FFC3D3E2"/>
+                                        <GradientStop Offset="1" Color="#00E8F508"/>
+                                    </RadialGradientBrush>
+                                </Rectangle.Fill>
+                            </Rectangle>
+                            <Rectangle x:Name="glass" Height="29" Stroke="#FFB21D1D" StrokeThickness="0" RadiusX="24" RadiusY="18" Width="77" Opacity="0.795">
+                                <Rectangle.Fill>
+                                    <LinearGradientBrush EndPoint="0.489,-0.231" MappingMode="RelativeToBoundingBox" StartPoint="0.489,1.07">
+                                        <GradientStop Color="#00000000" Offset="0"/>
+                                        <GradientStop Color="White" Offset="1"/>
+                                        <GradientStop Color="#9B9B9B9B" Offset="0.675"/>
+                                        <GradientStop Color="#1B1B1B1B" Offset="0.543"/>
+                                    </LinearGradientBrush>
+                                </Rectangle.Fill>
+                            </Rectangle>
+                            <TextBlock TextWrapping="Wrap" Width="77" Height="21" RenderTransformOrigin="0.846,0.482" TextAlignment="Center" Canvas.Top="8"><Run Language="en-za" Text="Print"/><LineBreak/><Run Language="en-za"/></TextBlock>
+                        </Canvas>
+                    </StackPanel>
+                </StackPanel>
+            </Canvas>
+			<Canvas x:Name="Can_AddInvoice" DockPanel.Dock="Bottom" HorizontalAlignment="Center" Width="175" Height="142" MouseEnter="Can_AddInvoice_MouseEnter" MouseLeave="Can_AddInvoice_MouseLeave" VerticalAlignment="Center" MouseDown="Can_AddInvoice_MouseDown">
+				<Canvas x:Name="can_BGcircle" Height="100" Canvas.Left="22" Canvas.Top="25" Width="131" Cursor="Hand" VerticalAlignment="Center" HorizontalAlignment="Center">
+					<Canvas.Triggers>					
+						<EventTrigger RoutedEvent="UIElement.MouseEnter">
+							<BeginStoryboard>
+								<Storyboard x:Name="sb1" RepeatBehavior="Forever">											
+									<ColorAnimationUsingKeyFrames Storyboard.TargetName="EP1" Storyboard.TargetProperty="(Shape.Fill).(SolidColorBrush.Color)">
+										<DiscreteColorKeyFrame KeyTime="0:0:0.2" Value="Black" />
+										<DiscreteColorKeyFrame KeyTime="0:0:0.4" Value="Green" />												
+									</ColorAnimationUsingKeyFrames>	
+									<ColorAnimationUsingKeyFrames Storyboard.TargetName="EP2" Storyboard.TargetProperty="(Shape.Fill).(SolidColorBrush.Color)">
+										<DiscreteColorKeyFrame KeyTime="0:0:0.4" Value="Black" />
+										<DiscreteColorKeyFrame KeyTime="0:0:0.6" Value="Green" />												
+									</ColorAnimationUsingKeyFrames>
+									<ColorAnimationUsingKeyFrames Storyboard.TargetName="EP3" Storyboard.TargetProperty="(Shape.Fill).(SolidColorBrush.Color)">
+										<DiscreteColorKeyFrame KeyTime="0:0:0.6" Value="Black" />
+										<DiscreteColorKeyFrame KeyTime="0:0:0.8" Value="Green" />												
+									</ColorAnimationUsingKeyFrames>	
+									<ColorAnimationUsingKeyFrames Storyboard.TargetName="EP4" Storyboard.TargetProperty="(Shape.Fill).(SolidColorBrush.Color)">
+										<DiscreteColorKeyFrame KeyTime="0:0:0.8" Value="Black" />
+										<DiscreteColorKeyFrame KeyTime="0:0:1" Value="Green" />												
+									</ColorAnimationUsingKeyFrames>	
+									<ColorAnimationUsingKeyFrames Storyboard.TargetName="EP5" Storyboard.TargetProperty="(Shape.Fill).(SolidColorBrush.Color)">
+										<DiscreteColorKeyFrame KeyTime="0:0:1" Value="Black" />
+										<DiscreteColorKeyFrame KeyTime="0:0:1.2" Value="Green" />												
+									</ColorAnimationUsingKeyFrames>	
+									<ColorAnimationUsingKeyFrames Storyboard.TargetName="EP6" Storyboard.TargetProperty="(Shape.Fill).(SolidColorBrush.Color)">
+										<DiscreteColorKeyFrame KeyTime="0:0:1.2" Value="Black" />
+										<DiscreteColorKeyFrame KeyTime="0:0:1.4" Value="Green" />												
+									</ColorAnimationUsingKeyFrames>	
+									<ColorAnimationUsingKeyFrames Storyboard.TargetName="EP7" Storyboard.TargetProperty="(Shape.Fill).(SolidColorBrush.Color)">
+										<DiscreteColorKeyFrame KeyTime="0:0:1.4" Value="Black" />
+										<DiscreteColorKeyFrame KeyTime="0:0:1.6" Value="Green" />												
+									</ColorAnimationUsingKeyFrames>	
+									<ColorAnimationUsingKeyFrames Storyboard.TargetName="EP8" Storyboard.TargetProperty="(Shape.Fill).(SolidColorBrush.Color)">
+										<DiscreteColorKeyFrame KeyTime="0:0:0" Value="Black" />													
+										<DiscreteColorKeyFrame KeyTime="0:0:0.2" Value="Green" />												
+									</ColorAnimationUsingKeyFrames>																						
+								</Storyboard>
+							</BeginStoryboard>
+						</EventTrigger>						
+					</Canvas.Triggers>
+					<StackPanel Height="100" Width="131">
+						<Ellipse x:Name="elipse_AddInvoice" Height="100">
+							<Ellipse.Fill>
+								<RadialGradientBrush>
+									<GradientStop Color="Black" Offset="1"/>
+									<GradientStop Color="#FF646E38" Offset="0.335"/>
+								</RadialGradientBrush>
+							</Ellipse.Fill>					
+						</Ellipse>
+					</StackPanel>
+					<StackPanel Height="15.96" Width="131" Canvas.Top="42">
+						<TextBlock x:Name="TxtBlk_AddInvoice" TextWrapping="Wrap" Text="Issue Invoice?" Width="99.23" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Center"/>
+					</StackPanel>
+				</Canvas>
+				<Canvas x:Name="Can_Circles" Height="142" Width="175" Margin="0" Visibility="Collapsed">
+					<Ellipse x:Name="EP1" Height="13" Width="18" Canvas.Left="135" Canvas.Top="25" Fill="Green"/>
+					<Ellipse x:Name="EP2" Height="13" Width="18" Canvas.Left="157" Canvas.Top="69.96" Fill="Green"/>
+					<Ellipse x:Name="EP3" Height="13" Width="18" RenderTransformOrigin="-0.5,2.695" Canvas.Left="135" Canvas.Top="112" Fill="Green"/>
+					<Ellipse x:Name="EP4" Height="13" RenderTransformOrigin="-0.5,2.695" Canvas.Left="75" Canvas.Top="129" Width="18" Fill="Green"/>
+					<Ellipse x:Name="EP5" Height="13" RenderTransformOrigin="-0.5,2.695" Width="18" Canvas.Left="22" Canvas.Top="112" Fill="Green"/>
+					<Ellipse x:Name="EP6" Height="13" RenderTransformOrigin="-0.5,2.695" Width="18" Canvas.Top="69.96" Fill="Green"/>
+					<Ellipse x:Name="EP7" Height="13" RenderTransformOrigin="-0.5,2.695" Width="18" Canvas.Left="22" Canvas.Top="25" Fill="Green"/>
+					<Ellipse x:Name="EP8" Height="13" RenderTransformOrigin="-0.5,2.695" Canvas.Left="75" Width="18" Fill="Black" Canvas.Top="8"/>
+				</Canvas>			
+			</Canvas>
+		</DockPanel>
+	</Grid>
+</Page>
